@@ -1,0 +1,28 @@
+﻿# Laravel environment and secrets
+/backend/.env
+/backend/.env.*
+!/backend/.env.example
+
+# Laravel dependencies
+/backend/vendor/
+
+# Laravel runtime and generated files
+/backend/storage/*.key
+/backend/storage/framework/cache/*
+/backend/storage/framework/sessions/*
+/backend/storage/framework/views/*
+/backend/storage/logs/*
+
+# Next.js environment
+/frontend/.env*
+
+# Dependencies and generated builds
+/frontend/node_modules/
+/frontend/.next/
+/frontend/out/
+/frontend/build/
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
